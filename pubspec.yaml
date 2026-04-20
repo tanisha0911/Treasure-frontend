@@ -1,0 +1,42 @@
+name: treasure_hunt_web
+description: "A Flutter web app for treasure hunt events"
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.2.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  provider: ^6.1.1
+
+  # HTTP & API
+  http: ^1.1.2
+
+  # QR Code
+  qr_flutter: ^4.1.0
+  mobile_scanner: ^3.5.6
+
+  # Storage
+  shared_preferences: ^2.2.2
+
+  # Socket.IO
+  socket_io_client: ^2.0.3+1
+
+  # UI & Icons
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^10.6.0
+
+  # Utils
+  intl: ^0.19.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
