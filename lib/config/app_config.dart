@@ -3,8 +3,9 @@ class AppConfig {
   static const String socketUrl = 'http://localhost:3000';
 
   // Production URLs - update these when deploying
-  static const String prodBaseUrl = 'https://your-backend-url.vercel.app/api';
-  static const String prodSocketUrl = 'https://your-backend-url.vercel.app';
+  static const String prodBaseUrl =
+      'https://treasure-backend-two.vercel.app/api';
+  static const String prodSocketUrl = 'https://treasure-backend-two.vercel.app';
 
   // Use production URLs in release mode
   static String get apiBaseUrl {
